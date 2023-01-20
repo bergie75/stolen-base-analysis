@@ -89,5 +89,5 @@ def train_ensemble(df, model_list=["log", "forest", "svc"],
 
 
 if __name__ == "__main__":
-    data = pd.read_csv("mariners_train.csv")
+    data = pd.read_csv("placeholder_name.csv")
     train_ensemble(data)
