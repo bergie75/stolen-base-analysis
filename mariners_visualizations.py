@@ -55,6 +55,5 @@ def scroll_charts(df, indiv_id, id_col="catcher_id"):
 
 
 if __name__ == "__main__":
-    data = pd.read_csv("mariners_train.csv").dropna()
-    #explore_relationships(data)
-    scroll_charts(data, "203ed108", "catcher_id")
+    data = pd.read_csv("placeholder_name.csv").dropna()
+    scroll_charts(data, "id", "catcher_id")
