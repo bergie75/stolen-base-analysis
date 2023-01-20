@@ -1,5 +1,7 @@
-Roughly speaking, the code for problem 1 is contained in the file mariners_ensemble.py,
-while the code for problem 2 is contained in mariners_visualizations.py. My solution for the second problem
+The code included was designed to predict the outcome of a stolen base attempt (a runner on one base attempting to move to the next without being tagged out by the defense), which is encoded as a binary variable. An ensemble machine learning model (using gradient-boosted trees) and different bootstrap samples of the data were used, because the success rate for stolen bases leads to an unbalanced dataset.
+
+Roughly speaking, the code for training models is contained in the file mariners_ensemble.py,
+while the code for visualizations and use of the model for player improvement is contained in mariners_visualizations.py. My solution for the second problem
 makes use of my model, and the necessary methods are imported where needed. A rough summary of the methods in
 these files can be found below.
 
